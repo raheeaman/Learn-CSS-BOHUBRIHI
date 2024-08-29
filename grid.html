@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .header{
+            border: 2px solid black;
+        }
+        .left{
+            border: 2px solid black;
+            float: left;
+            width: 50%;
+        }
+        .right{
+            border: 2px solid black;
+            float: right;
+            width: 50%;
+        }
+        @media only screen and (max-width:600px){
+            body{
+                background-color: antiquewhite;
+            }
+            .right,.left{
+                float: none;
+                width: 100%;  
+            }
+        }
+        @media only screen and (min-width:600px){
+            body{
+                background-image:url(/image/bgimage.jpg) ;
+                background-size:auto;
+                background-repeat: no-repeat;
+                
+            }
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+    <div class="header">
+        <h1>This is heading</h1>
+    </div>
+
+    <div class="left">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ea officiis, praesentium debitis suscipit tempore voluptate molestias quod natus quia asperiores ex voluptas cupiditate inventore labore aspernatur! Quasi aperiam ad odio excepturi eaque iste, ipsa similique vero sit nemo ratione voluptate, cupiditate itaque incidunt eos adipisci, quas ducimus architecto. Ipsa deleniti ad eius tempora natus. Quos, cum iusto similique enim maiores commodi iure repellendus, ab illo odit, repellat ex sed iste blanditiis assumenda voluptatum excepturi! Corrupti error dolore voluptas laboriosam officia quis in magni aliquam rem sit nisi, ipsum, facilis eos beatae ratione blanditiis omnis enim ipsa mollitia accusantium libero.</p>
+    </div>
+    
+    <div class="right"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam enim eos laboriosam laborum architecto quos omnis nobis a. Officiis ad temporibus quae possimus laboriosam, vitae ducimus omnis maiores illo totam quisquam quibusdam ut suscipit repellat illum, accusantium iusto, facere atque dolorum placeat iure voluptate enim inventore expedita! Tenetur dolorum, iure amet aperiam ad praesentium inventore, consequuntur qui blanditiis dolore veniam. Quasi pariatur amet eveniet aliquid ipsum maxime tenetur expedita nostrum perferendis delectus. Facere, illo. Voluptatum, maxime rerum corporis accusantium porro iusto placeat praesentium tempora illo ex earum repellendus possimus id sunt, facilis sint consequatur officia nisi sapiente eum. Facilis, ad?</p>
+
+    </div>
+</body>
+</html>

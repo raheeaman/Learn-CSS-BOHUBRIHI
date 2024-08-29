@@ -1,0 +1,150 @@
+body{
+background-color: rgb(112, 185, 241);
+background: url(/image/bgimage.jpg);
+background-size: contain;
+background-attachment: scroll;
+background-repeat:repeat-x;
+}
+p{
+    color: rgb(20, 1, 1);
+    background-color:aliceblue;
+}
+#p1{
+    color: green;
+    background-color:cornflowerblue;
+    border: 2px solid black;
+}
+.c1{
+    background-color:blue;
+}
+h2,p{
+    color: crimson;
+}
+h1{
+    display: inline;
+    border: 2px dotted black;
+    margin-top: 20px;
+}
+.header a{
+    border: 2px solid black;
+    padding: 30px;
+    display: inline-block;
+    color: white;
+    text-decoration: none; /* removes the underline for anchor tag */
+    margin: 50px 100px 10px 20px; /*cloclwise- top-right-bottom-left*/
+    font-size: 50px;
+    text-shadow: 3px 3px black;
+}
+.navbar{
+    color: white;
+    max-width: 500px;
+    border: 25px solid rgb(15, 221, 180);
+    padding: 30px;
+    background-color: rgb(95, 8, 64);
+    margin:auto;
+    outline: 15px solid brown;
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 0.5cm;
+    letter-spacing: 0.5px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    margin-top: 20px;
+}
+.navbar:hover{
+    background-color: rgba(29, 70, 218, 0.57);
+}
+#innerlink{
+    display: block;
+    padding: 15px;
+    width: 200px;
+    background-color: bisque;
+    margin: auto;
+    text-decoration: none;
+    border-radius: 50px 50px;
+    color: brown;
+}
+#innerlink:link{
+    background-color: yellow;
+    color: black;
+}
+#innerlink:visited{
+    background-color: white;
+    color: blue;
+}
+#innerlink:hover{
+    background-color: green;
+    color: white;
+}
+#innerlink:checked{
+    background-color:white;
+    color: purple;
+}
+.listclass{
+    width: 50%;
+    margin: auto;
+    background-color: rgb(88, 45, 45);
+    padding: 25px;
+    margin-top: 50px;
+}
+.listclass ol li{
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    background-color:darkred
+}
+.mytable{
+    padding: 100px;
+    background-color:rgba(94, 38, 62, 0.886);
+    margin-top:20px;
+}
+.tablecontainer{
+    width: 500px;
+    margin:auto;
+    background-color: aqua;
+    padding: 40px;
+}
+.tablecontainer table,th,td{
+   border: 2px solid black;
+   border-collapse: collapse;
+   padding: 10px;
+   width: 500px;
+}
+.tablecontainer th{
+    background-color: cadetblue;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.tablecontainer td{
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+}
+.mydisplay{
+    border: 3px solid rgb(2, 71, 120);
+    font-size: 50px;
+    display: inline;
+    background-color: bisque;
+}
+.sticky{
+    width:100%;
+    padding: 2px;
+    background-color: brown;
+    font-size: 50px;
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 3px 3px black;
+    position: sticky;
+    top: 0;
+}
+.float{
+    border: 3px solid black;
+    overflow: auto;
+    margin-top: 5px;
+}
+#myimg{
+    float: left;
+    padding: 5px;
+}
+.float p{
+    text-align: center;
+}
